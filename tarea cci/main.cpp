@@ -128,14 +128,153 @@ void ejercicio6(char cadena[]){
 
 
 }
+//ejercicio 7
+void intercambiar(int &x,int &y){
+	int z;
+	z=x;
+	x=y;
+	y=z;
+}
 
+//ejercicio 8
+void intercambiar_ptr(int *x,int *y){
+	int z;
+	z=*x;
+	*x=*y;
+	*y=z;
+}
+
+//ejercio 9
+void insertion_sort(int arr[], int tam){
+	int j, temp;
+
+	for (int i = 0; i < tam; i++){
+		j = i;
+
+		while (j > 0 && arr[j] < arr[j-1]){
+			  temp = arr[j];
+			  arr[j] = arr[j-1];
+			  arr[j-1] = temp;
+			  j--;
+			  }
+		}
+}
+
+//ejercicio 11
+
+void mult_matrices(){
+	int acol,afil,bcol,bfil;
+	cout<<"Ingrese numero de filas de la matriz A: ";
+	cin>>afil;
+	cout<<"Ingrese numero de columnas de la matriz A: ";
+	cin>>acol;
+	int a[afil][acol];
+	for(int i=0;i<afil;i++){
+		for(int j=0;j<acol;j++){
+			cout<<"ingrese numero de la posicion: "<<i<<","<<j<<": ";
+			cin>>a[i][j];
+		}
+	}
+	cout<<"Ingrese numero de filas de la matriz B: ";
+	cin>>bfil;
+	cout<<"Ingrese numero de filas de la matriz B: ";
+	cin>>bcol;
+	int b[bfil][bcol];
+	for(int i=0;i<bfil;i++){
+		for(int j=0;j<bcol;j++){
+			cout<<"ingrese numero de la posicion: "<<i<<","<<j<<": ";
+			cin>>b[i][j];
+		}
+	}
+	if(acol==bfil){
+		int c[afil][bcol];
+		for(int i=0;i<afil;i++){
+			for(int j=0;j<bcol;j++){
+				c[i][j]=0;
+			}
+		}
+
+		for(int i=0;i<afil;i++){
+			for(int j=0;j<bcol;j++){
+				for(int k=0;k<bfil;k++){
+					c[i][j]+=a[i][k]*b[k][j];
+
+				}
+			}
+
+		}
+		cout<<endl;
+		for(int i=0;i<afil;i++){
+			for(int j=0;j<bcol;j++){
+				cout<<c[i][j]<<" ";
+			}
+			cout<<endl;
+		}
+	}
+	else{
+		cout<<"no se pueden multilicar las matrices"<<endl;
+	}
+
+}
+
+//ejercicio 14
+int sumar(int a[],int n)
+{
+    if(n==1)
+        return a[0];
+    else
+        return a[n-1]+sumar(a,n-1);
+}
+//ejercicio 15
+int tamCadena(char cadena[]){
+    int i;
+    for(i=0;cadena[i]!='\0';i++);
+    return i;
+}
+bool es_palindrome(char p[]){
+	int n=tamCadena(p);
+	int x;
+	if (n%2==0)
+		x=(n/2)+1;
+	else
+		x=n/2;
+
+	for (int i=0;i<x;i++){
+		if (p[i]!=p[n-1]){
+			return false;
+		}
+		n--;
+
+	}
+	return true;
+}
 int main(){
     //cout<<millas_kilometros()<<endl;
     //grados();
     //numero_par();
 	//cout<<potencia(5,0);
 	//casse();
-	char cadena[]="- 50 3.6 ";
-    ejercicio6(cadena);
+	//char cadena[]="- 50 3.6 ";
+    //ejercicio6(cadena);
+	/*
+	int a,b;
+	a=58;
+	b=01;
+	intercambiar_ptr(&a,&b);
+	cout<<"a "<<a<<endl;
+	cout<<"b "<<b<<endl;
+
+	int array[]={5,2,8,63,4,0,8,6,7,1,9,85,2,1,18};
+	insertion_sort(array,15);
+	for (int i=0;i<15;i++){
+		cout<<array[i]<<"-";
+	}*/
+	//mult_matrices();
+	//int ar[]={1,2,3,4,5,6,7,8,9};
+	//cout<<sumar(ar,9);
+	//char p[]="anilina";
+	//cout<<es_palindrome(p);
+
 	return 0;
 }
+
