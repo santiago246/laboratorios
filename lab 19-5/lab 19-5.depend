@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1495210075 source:c:\users\alumno-g\desktop\lab 19-5\main.cpp
+	<iostream>
+	"Car.h"
+	"Vehicle.h"
+	"Bicileta.h"
+	"Camion.h"
+
+1495208468 c:\users\alumno-g\desktop\lab 19-5\include\car.h
+	<Vehicle.h>
+	<iostream>
+
+1495208827 c:\users\alumno-g\desktop\lab 19-5\include\vehicle.h
+	<iostream>
+
+1495208592 source:c:\users\alumno-g\desktop\lab 19-5\src\car.cpp
+	"Car.h"
+	<sstream>
+
+1495209288 source:c:\users\alumno-g\desktop\lab 19-5\src\vehicle.cpp
+	"Vehicle.h"
+	<sstream>
+
+1495209866 c:\users\alumno-g\desktop\lab 19-5\include\bicileta.h
+	<Vehicle.h>
+
+1495209875 source:c:\users\alumno-g\desktop\lab 19-5\src\bicileta.cpp
+	"Bicileta.h"
+	<sstream>
+
+1495210008 c:\users\alumno-g\desktop\lab 19-5\include\camion.h
+	<Vehicle.h>
+
