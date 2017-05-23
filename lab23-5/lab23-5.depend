@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1495554163 source:c:\users\alumno-a\desktop\lab23-5\main.cpp
+	<iostream>
+	"Mascota.h"
+	"Perro.h"
+	"Gato.h"
+
+1495552055 source:c:\users\alumno-a\desktop\lab23-5\src\animal.cpp
+	"Animal.h"
+
+1495552055 c:\users\alumno-a\desktop\lab23-5\include\animal.h
+	<iostream>
+
+1495550981 source:c:\users\alumno-a\desktop\lab23-5\src\carnivoro.cpp
+	"Carnivoro.h"
+
+1495550981 c:\users\alumno-a\desktop\lab23-5\include\carnivoro.h
+	<Animal.h>
+
+1495553415 source:c:\users\alumno-a\desktop\lab23-5\src\gato.cpp
+	"Gato.h"
+
+1495553288 c:\users\alumno-a\desktop\lab23-5\include\gato.h
+	<Mascota.h>
+	<iostream>
+
+1495554190 c:\users\alumno-a\desktop\lab23-5\include\mascota.h
+	<iostream>
+
+1495553118 source:c:\users\alumno-a\desktop\lab23-5\src\perro.cpp
+	"Perro.h"
+
+1495553348 c:\users\alumno-a\desktop\lab23-5\include\perro.h
+	<Mascota.h>
+
