@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1385316878 source:c:\users\alumno-g\desktop\lab 26-05\main.cpp
+	<iostream>
+
+1495814135 source:c:\users\alumno-g\desktop\lab 26-05\src\cumpleanios.cpp
+	"Cumpleanios.h"
+	<iostream>
+
+1495814135 c:\users\alumno-g\desktop\lab 26-05\include\cumpleanios.h
+	<iostream>
+
+1495814752 source:c:\users\alumno-g\desktop\lab 26-05\src\persona .cpp
+	"Persona .h"
+	"Cumpleanios.h"
+	<iostream>
+
+1495814752 c:\users\alumno-g\desktop\lab 26-05\include\persona .h
+	"Cumpleanios.h"
+	<iostream>
+
