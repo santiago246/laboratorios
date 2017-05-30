@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1496157656 source:c:\users\alumno-a\desktop\practica\main.cpp
+	<iostream>
+	"Cumple.h"
+	"Persona.h"
+	"Gerente.h"
+
+1496156669 c:\users\alumno-a\desktop\practica\include\cumple.h
+
+1496157790 c:\users\alumno-a\desktop\practica\include\persona.h
+	"Cumple.h"
+	<iostream>
+
+1496156669 source:c:\users\alumno-a\desktop\practica\src\cumple.cpp
+	<iostream>
+	"Cumple.h"
+
+1496157790 source:c:\users\alumno-a\desktop\practica\src\persona.cpp
+	"Persona.h"
+	<iostream>
+
+1496157423 c:\users\alumno-a\desktop\practica\include\gerente.h
+	"Cumple.h"
+	<Persona.h>
+	<iostream>
+
+1496158067 source:c:\users\alumno-a\desktop\practica\src\gerente.cpp
+	"Gerente.h"
+
+1496158067 source:c:\users\alumno-a\desktop\practica\src\conserje.cpp
+	"Conserje.h"
+
+1496158031 c:\users\alumno-a\desktop\practica\include\conserje.h
+	<iostream>
+	"Cumple.h"
+	<Persona.h>
+
