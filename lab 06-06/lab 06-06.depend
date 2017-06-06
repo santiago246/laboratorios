@@ -1,8 +1,11 @@
 # depslib dependency file v1.0
-1496761709 source:c:\users\alumno-a\desktop\lab 06-06\main.cpp
+1496763467 source:c:\users\alumno-a\desktop\lab 06-06\main.cpp
 	<iostream>
 	"Point.h"
 	"PointArray.h"
+	"Polygon.h"
+	"Rectangle.h"
+	"Triangle.h"
 
 1496762252 source:c:\users\alumno-a\desktop\lab 06-06\src\pointarray.cpp
 	"PointArray.h"
@@ -11,11 +14,18 @@
 1496761696 c:\users\alumno-a\desktop\lab 06-06\include\pointarray.h
 	"Point.h"
 
-1496759838 c:\users\alumno-a\desktop\lab 06-06\include\point.h
+1496763074 c:\users\alumno-a\desktop\lab 06-06\include\point.h
 
-1496760455 source:c:\users\alumno-a\desktop\lab 06-06\src\polygon.cpp
+1496762576 source:c:\users\alumno-a\desktop\lab 06-06\src\polygon.cpp
 	"Polygon.h"
 
-1496760436 c:\users\alumno-a\desktop\lab 06-06\include\polygon.h
+1496762540 c:\users\alumno-a\desktop\lab 06-06\include\polygon.h
 	"PointArray.h"
+
+1496763520 c:\users\alumno-a\desktop\lab 06-06\include\rectangle.h
+	<Polygon.h>
+	<iostream>
+
+1496763445 c:\users\alumno-a\desktop\lab 06-06\include\triangle.h
+	<Polygon.h>
 

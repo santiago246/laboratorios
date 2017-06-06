@@ -1,4 +1,3 @@
-/*
 #ifndef POLYGON_H
 #define POLYGON_H
 #include "PointArray.h"
@@ -20,4 +19,4 @@ class Polygon {
      ~ Polygon () {-- numPolygons ;}
  };
 #endif // POLYGON_H
-*/
+

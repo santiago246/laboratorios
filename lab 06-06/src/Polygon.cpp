@@ -1,7 +1,6 @@
-/*
 #include "Polygon.h"
 
-int Polygon ::n = 0;
+int Polygon ::numPolygons = 0;
 
 
 
