@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1496980009 source:c:\users\blizzmac\workspace7\monopolio\casilla.cpp
+	"Casilla.h"
+
+1496980009 c:\users\blizzmac\workspace7\monopolio\casilla.h
+	<iostream>
+
+1496980009 source:c:\users\blizzmac\workspace7\monopolio\jugador.cpp
+	"Jugador.h"
+	"Jugador.h"
+
+1496980009 c:\users\blizzmac\workspace7\monopolio\jugador.h
+	<iostream>
+	"Tablero.h"
+
+1496980054 c:\users\blizzmac\workspace7\monopolio\tablero.h
+	<iostream>
+	"Casilla.h"
+
+1496980128 source:c:\users\blizzmac\workspace7\monopolio\jugandomonopolio.cpp
+	"JugandoMonopolio.h"
+
+1496980128 c:\users\blizzmac\workspace7\monopolio\jugandomonopolio.h
+	"Jugador.h"
+	"Tablero.h"
+	"Casilla.h"
+	<stdlib.h>
+	<time.h>
+
+1496980292 source:c:\users\blizzmac\workspace7\monopolio\jugar.cpp
+	"Jugador.h"
+	"Tablero.h"
+	"Casilla.h"
+	"JugandoMonopolio.h"
+
+1496980054 source:c:\users\blizzmac\workspace7\monopolio\tablero.cpp
+	"Tablero.h"
+
