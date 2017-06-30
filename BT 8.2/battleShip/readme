@@ -1,0 +1,7 @@
+1 abrir el archivo battleShipGameDemo.cpp
+2 crea los tableros de cada jugador 
+3 crea coordenadas donde se ubicaran tus barcos
+4 crea los jugadores y añade las cordenadas
+5 crea el juego BattleShipiGame 
+6 añade los jugadores al juego
+7 empieza a jugar
